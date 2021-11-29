@@ -1,6 +1,7 @@
 {
-  "name": "aigakira-i18n",
-  "version": "0.0.1",
+  "name": "aigakira-svelte-i18n",
+  "version": "0.0.2",
+  "keywords": [ "internationalization", "i18n", "svelte", "sveltekit" , "svelte-kit" ],
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
@@ -28,5 +29,6 @@
     "tslib": "^2.3.1",
     "typescript": "^4.5.2"
   },
-  "type": "module"
+  "type": "module",
+  "main" : "./aigakira-i18n.js"
 }
