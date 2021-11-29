@@ -17,18 +17,6 @@ let translation = derived(dictionary, ( $dictionary: any ) => {
             trueValue = trueValue?.[node]
         }
 
-        // let returnedValue: any
-
-        // if( trueValue ){
-        //     returnedValue = trueValue
-
-        //     if( trueValue instanceof String ){
-        //         for(let field in interpolation){
-        //             returnedValue = returnedValue.replace(`{${field}}`, interpolation[field])
-        //         }
-        //     }
-        // }
-
         let result = new TranslationResult(trueValue, interpolation)
 
         return result
