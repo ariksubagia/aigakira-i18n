@@ -1,0 +1,11 @@
+{
+    "homepage" : {
+        "title" : "halo dunia {name}",
+        "caption" : "selamat datang di dunia svelte",
+        "fish" : [
+            "{name} menangkap seekor ikan",
+            "{name} menangkap {counter} ekor ikan",
+            "{name} tidak menangkap ikan apapun"
+        ]
+    }
+}

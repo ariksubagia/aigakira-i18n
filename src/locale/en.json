@@ -1,0 +1,11 @@
+{
+    "homepage" : {
+        "title" : "hello world {name}",
+        "caption" : "welcome to the svelte world",
+        "fish" : [
+            "{name} manage to catch a fish",
+            "{name} manage to catch {counter} fishes",
+            "{name} did not catch any fish"
+        ]
+    }
+}
