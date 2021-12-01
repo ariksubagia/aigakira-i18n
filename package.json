@@ -1,6 +1,6 @@
 {
   "name": "aigakira-svelte-i18n",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "keywords": [ "internationalization", "i18n", "svelte", "sveltekit" , "svelte-kit" ],
   "scripts": {
     "dev": "svelte-kit dev",
