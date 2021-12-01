@@ -23,6 +23,8 @@ let translation = derived(dictionary, ( $dictionary: any ) => {
     }
 })
 
+export const lang = chosen
+
 export const add = (name: string , dictionary: object) => {
     library.update(stored => ({
         ...stored,
